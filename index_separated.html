@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonu Kumar - Data Analyst Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3db143f651.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Cinematic Background Elements -->
+    <div class="video-background">
+      <canvas id="cinema-canvas"></canvas>
+    </div>
+
+    <!-- Gradient Overlay -->
+    <div class="gradient-overlay"></div>
+
+    <!-- Floating Orbs -->
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+
+    <!-- Cinematic Lines -->
+    <div class="cinematic-lines">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+    <!-- Mesh Grid -->
+    <div class="mesh-grid"></div>
+
+    <!-- Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Noise Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Vignette -->
+    <div class="vignette"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+      <a href="#home" class="logo">
+        <i class="bx bx-bar-chart-alt-2"></i>
+        Sonu<span>Kumar</span>
+      </a>
+
+      <nav class="navbar" id="navbar">
+        <a href="#home" style="--i: 1" class="active">Home</a>
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#education" style="--i: 3">Education</a>
+        <a href="#skills" style="--i: 4">Skills</a>
+        <a href="#certifications" style="--i: 5">Certifications</a>
+        <a href="#services" style="--i: 6">Services</a>
+        <a href="#projects" style="--i: 7">Projects</a>
+        <a href="#contact" style="--i: 8">Contact</a>
+      </nav>
+
+      <div class="menu-icon" id="menu-icon">☰</div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I'm</h3>
+        <h1>Sonu Kumar</h1>
+        <h3>And I'm a <span class="text"></span></h3>
+        <p>
+          Transforming complex data into strategic insights that drive business
+          growth. I specialize in statistical analysis, machine learning, and
+          creating compelling data visualizations that tell powerful stories and
+          enable data-driven decisions.
+        </p>
+        <div class="home-sci">
+          <a
+            href="mailto:sonukumar12january@gmail.com"
+            style="--i: 7"
+            title="Email Me"
+          >
+            <i class="bx bx-envelope"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sonu-kumar-k/"
+            style="--i: 8"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/Sonukumar12jan"
+            style="--i: 9"
+            target="_blank"
+            title="GitHub"
+          >
+            <i class="bx bxl-github"></i>
+          </a>
+        </div>
+        <div class="btn-container">
+          <a href="./My Resume.pdf" class="btn-box" download>
+            <i class="bx bx-download"></i>
+            <span>Download Resume</span>
+          </a>
+          <a href="#projects" class="btn-box btn-outline">
+            <span>View Case Studies</span>
+            <i class="bx bx-right-arrow-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <!-- Outer Glowing Ring -->
+        <div class="profile-ring"></div>
+
+        <!-- Floating Particles -->
+        <div class="profile-particles">
+          <div class="profile-particle"></div>
+          <div class="profile-particle"></div>
+          <div class="profile-particle"></div>
+          <div class="profile-particle"></div>
+          <div class="profile-particle"></div>
+          <div class="profile-particle"></div>
+        </div>
+
+        <!-- Corner Brackets -->
+        <div class="corner-bracket"></div>
+        <div class="corner-bracket"></div>
+        <div class="corner-bracket"></div>
+        <div class="corner-bracket"></div>
+
+        <!-- Data Hexagons -->
+        <div class="data-hexagon"></div>
+        <div class="data-hexagon"></div>
+        <div class="data-hexagon"></div>
+        <div class="data-hexagon"></div>
+
+        <!-- Data Points -->
+        <div class="data-point"></div>
+        <div class="data-point"></div>
+        <div class="data-point"></div>
+        <div class="data-point"></div>
+
+        <!-- Scan Line Effect -->
+        <div class="scan-line"></div>
+
+        <!-- Profile Image -->
+        <img src="./photo.jpg" alt="Sonu Kumar - Data Analyst" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about reveal fade-bottom" id="about">
+      <div class="container">
+        <h1 class="sub-title">About <span>Me</span></h1>
+        <div class="about-grid">
+          <div class="about-img">
+            <img src="./photo.jpg" alt="About Sonu Kumar" />
+          </div>
+          <div class="about-text">
+            <h4>Senior Data Analyst & Analytics Strategist</h4>
+            <p>
+              Hi! I'm Sonu Kumar, a passionate Data Analyst with over 6 years of
+              experience turning raw data into actionable business intelligence.
+              My expertise spans across Python, R, SQL, and advanced visualization
+              tools like Tableau and Power BI.
+              <br /><br />
+              I have a strong foundation in statistics, machine learning, and
+              predictive analytics, enabling me to uncover hidden patterns and
+              forecast trends with high accuracy. My work has helped organizations
+              optimize operations, increase revenue by up to 35%, and make
+              informed strategic decisions.
+              <br /><br />
+              From customer segmentation and churn prediction to A/B testing and
+              real-time dashboards, I believe in the power of data to tell
+              compelling stories and drive meaningful change. When I'm not
+              analyzing data, you'll find me exploring new ML algorithms or
+              mentoring aspiring data professionals.
+            </p>
+            <a href="#services" class="btn-box">
+              <span>My Services</span>
+              <i class="bx bx-right-arrow-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education reveal fade-bottom" id="education">
+      <div class="container">
+        <h1 class="sub-title">My <span>Education</span></h1>
+
+        <div class="education-timeline">
+          <!-- Current Course - Left Side (1st item - odd) -->
+          <div class="education-item">
+            <div class="education-card">
+              <div class="education-icon">
+                <i class="bx bx-book-reader"></i>
+              </div>
+              <span class="year">Aug 2024 - Present</span>
+              <h3>Master's in computer application (MCA)</h3>
+              <h4>Maharishi Markandeshwar(Deemed To Be University), Haryana</h4>
+              <p>
+                Pursuing advanced studies in Machine Learning, Deep Learning,
+                Big Data Analytics, and Statistical Modeling. Research focus on
+                Natural Language Processing and Computer Vision applications.
+              </p>
+              <div class="grade">
+                <i class="bx bx-trophy"></i>
+                <span>CGPA: 7.92/10 (Ongoing)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Graduation - Right Side (2nd item - even) -->
+          <div class="education-item">
+            <div class="education-card">
+              <div class="education-icon">
+                <i class="bx bxs-graduation"></i>
+              </div>
+              <span class="year">july 2021 - june 2024</span>
+              <h3>Bachelor of Computer application (BCA)</h3>
+              <h4>Patliputra University, Bihar</h4>
+              <p>
+                Computer Science and Engineering with specialization in Data
+                Analytics. Completed projects in predictive modeling, database
+                management, and web-based analytics dashboards.
+              </p>
+              <div class="grade">
+                <i class="bx bx-trophy"></i>
+                <span>Percentage: 70.5%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 12th - Left Side (3rd item - odd) -->
+          <div class="education-item">
+            <div class="education-card">
+              <div class="education-icon">
+                <i class="bx bx-book-open"></i>
+              </div>
+              <span class="year">May 2017 - March 2019</span>
+              <h3>Higher Secondary (12th Grade)</h3>
+              <h4>Rajkiyakrit +2 High School Beldar Bigha, Nalanda</h4>
+              <p>
+                Science stream with Physics, Chemistry, Mathematics, and
+                Computer Science. Active participant in Science Olympiads and
+                coding competitions. School topper in Computer Science.
+              </p>
+              <div class="grade">
+                <i class="bx bx-trophy"></i>
+                <span>Percentage: 58.6%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10th - Right Side (4th item - even) -->
+          <div class="education-item">
+            <div class="education-card">
+              <div class="education-icon">
+                <i class="bx bx-book"></i>
+              </div>
+              <span class="year">2016 - 2017</span>
+              <h3>Secondary School (10th Grade)</h3>
+              <h4>Rajkiyakrit +2 High School Beldar Bigha, Nalanda</h4>
+              <p>
+                Completed BSEB curriculum with distinction in Mathematics and
+                Science. Developed early interest in programming through
+                introductory courses. Received academic excellence award.
+              </p>
+              <div class="grade">
+                <i class="bx bx-trophy"></i>
+                <span>Percentage: 72.2%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section reveal fade-bottom" id="skills">
+      <div class="container">
+        <h1 class="sub-title">My <span>Skills</span></h1>
+
+        <div class="skills-container">
+          <!-- Programming & Analytics -->
+          <div class="skills-card reveal fade-left">
+            <h2 class="skill-title">Programming & Analytics</h2>
+            <div class="skills-grid">
+              <div class="skill" data-color="yellow">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  alt="Python"
+                />
+                <span>Python</span>
+              </div>
+              <div class="skill" data-color="blue">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg"
+                  alt="R"
+                />
+                <span>R</span>
+              </div>
+              <div class="skill" data-color="orange">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                  alt="SQL"
+                />
+                <span>SQL</span>
+              </div>
+              <div class="skill" data-color="purple">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                  alt="Pandas"
+                />
+                <span>Pandas</span>
+              </div>
+              <div class="skill" data-color="blue">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                  alt="NumPy"
+                />
+                <span>NumPy</span>
+              </div>
+              <div class="skill" data-color="blue">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/b/b2/SCIPY_2.svg"
+                  alt="SciPy"
+                />
+                <span>SciPy</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visualization Tools -->
+          <div class="skills-card reveal fade-right">
+            <h2 class="skill-title">Visualization Tools</h2>
+            <div class="skills-grid">
+              <div class="skill" data-color="blue">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"
+                  alt="Tableau"
+                />
+                <span>Tableau</span>
+              </div>
+              <div class="skill" data-color="yellow">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+                  alt="Power BI"
+                />
+                <span>Power BI</span>
+              </div>
+              <div class="skill" data-color="green">
+                <img
+                  src="./Microsoft_Excel_2013-2019_logo.svg.png"
+                  alt="Excel"
+                />
+                <span>Excel</span>
+              </div>
+              <div class="skill" data-color="blue">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg"
+                  alt="Matplotlib"
+                />
+                <span>Matplotlib</span>
+              </div>
+              <div class="skill" data-color="teal">
+                <img
+                  src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg"
+                  alt="Seaborn"
+                />
+                <span>Seaborn</span>
+              </div>
+              <div class="skill" data-color="purple">
+                <img
+                  src="https://images.plot.ly/logo/new-branding/plotly-logomark.png"
+                  alt="Plotly"
+                />
+                <span>Plotly</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Machine Learning & Big Data -->
+          <div class="skills-card reveal fade-left">
+            <h2 class="skill-title">ML & Big Data</h2>
+            <div class="skills-grid">
+              <div class="skill" data-color="orange">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
+                  alt="Scikit-learn"
+                />
+                <span>Scikit-learn</span>
+              </div>
+              <div class="skill" data-color="orange">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                  alt="TensorFlow"
+                />
+                <span>TensorFlow</span>
+              </div>
+              <div class="skill" data-color="red">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg"
+                  alt="Spark"
+                />
+                <span>Spark</span>
+              </div>
+              <div class="skill" data-color="green">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                  alt="MongoDB"
+                />
+                <span>MongoDB</span>
+              </div>
+              <div class="skill" data-color="blue">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                  alt="PostgreSQL"
+                />
+                <span>PostgreSQL</span>
+              </div>
+              <div class="skill" data-color="orange">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+                  alt="AWS"
+                />
+                <span>AWS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools & Platforms -->
+          <div class="skills-card reveal fade-right">
+            <h2 class="skill-title">Tools & Platforms</h2>
+            <div class="skills-grid">
+              <div class="skill" data-color="orange">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+                  alt="Jupyter"
+                />
+                <span>Jupyter</span>
+              </div>
+              <div class="skill" data-color="red">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                  alt="Git"
+                />
+                <span>Git</span>
+              </div>
+              <div class="skill" data-color="blue">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                  alt="Docker"
+                />
+                <span>Docker</span>
+              </div>
+              <div class="skill" data-color="blue">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+                  alt="BigQuery"
+                />
+                <span>BigQuery</span>
+              </div>
+              <div class="skill" data-color="teal">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png"
+                  alt="Airflow"
+                />
+                <span>Airflow</span>
+              </div>
+              <div class="skill" data-color="yellow">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+                  alt="Linux"
+                />
+                <span>Linux</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications reveal fade-bottom" id="certifications">
+      <div class="container">
+        <h1 class="sub-title">My <span>Certifications</span></h1>
+
+        <div class="certifications-grid">
+          <!-- Google Data Analytics -->
+          <div class="cert-card">
+            <div class="cert-logo">
+              <img
+                src="https://www.gstatic.com/images/branding/product/2x/googleg_48dp.png"
+                alt="Google"
+              />
+            </div>
+            <div class="cert-content">
+              <h3>Google Data Analytics Professional Certificate</h3>
+              <h4><i class="bx bxs-building"></i> Google</h4>
+              <p>
+                Comprehensive training in data analysis, SQL, R programming,
+                Tableau, and data visualization best practices.
+              </p>
+              <div class="cert-meta">
+                <span class="cert-date"
+                  ><i class="bx bx-calendar"></i> Dec 2023</span
+                >
+                <span class="cert-badge"
+                  ><i class="bx bx-check-circle"></i> Verified</span
+                >
+                <a href="#" class="cert-link"
+                  ><i class="bx bx-link-external"></i> View</a
+                >
+              </div>
+              <div class="cert-skills">
+                <span>SQL</span>
+                <span>R</span>
+                <span>Tableau</span>
+                <span>Spreadsheets</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- IBM Data Science -->
+          <div class="cert-card">
+            <div class="cert-logo">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
+                alt="IBM"
+              />
+            </div>
+            <div class="cert-content">
+              <h3>IBM Data Science Professional Certificate</h3>
+              <h4><i class="bx bxs-building"></i> IBM via Coursera</h4>
+              <p>
+                Mastery in Python, machine learning, data visualization, and
+                building data science projects from scratch.
+              </p>
+              <div class="cert-meta">
+                <span class="cert-date"
+                  ><i class="bx bx-calendar"></i> Oct 2023</span
+                >
+                <span class="cert-badge"
+                  ><i class="bx bx-check-circle"></i> Verified</span
+                >
+                <a href="#" class="cert-link"
+                  ><i class="bx bx-link-external"></i> View</a
+                >
+              </div>
+              <div class="cert-skills">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>SQL</span>
+                <span>Data Viz</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Microsoft Power BI -->
+          <div class="cert-card">
+            <div class="cert-logo">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg"
+                alt="Power BI"
+              />
+            </div>
+            <div class="cert-content">
+              <h3>Microsoft Power BI Data Analyst Associate</h3>
+              <h4><i class="bx bxs-building"></i> Microsoft</h4>
+              <p>
+                Expert-level certification in creating dashboards, DAX formulas,
+                data modeling, and Power BI service.
+              </p>
+              <div class="cert-meta">
+                <span class="cert-date"
+                  ><i class="bx bx-calendar"></i> Aug 2023</span
+                >
+                <span class="cert-badge"
+                  ><i class="bx bx-check-circle"></i> Verified</span
+                >
+                <a href="#" class="cert-link"
+                  ><i class="bx bx-link-external"></i> View</a
+                >
+              </div>
+              <div class="cert-skills">
+                <span>Power BI</span>
+                <span>DAX</span>
+                <span>Data Modeling</span>
+                <span>ETL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- AWS Data Analytics -->
+          <div class="cert-card">
+            <div class="cert-logo">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+                alt="AWS"
+              />
+            </div>
+            <div class="cert-content">
+              <h3>AWS Certified Data Analytics - Specialty</h3>
+              <h4><i class="bx bxs-building"></i> Amazon Web Services</h4>
+              <p>
+                Advanced cloud analytics including Redshift, Athena, Glue, and
+                building scalable data pipelines on AWS.
+              </p>
+              <div class="cert-meta">
+                <span class="cert-date"
+                  ><i class="bx bx-calendar"></i> Jun 2023</span
+                >
+                <span class="cert-badge"
+                  ><i class="bx bx-check-circle"></i> Verified</span
+                >
+                <a href="#" class="cert-link"
+                  ><i class="bx bx-link-external"></i> View</a
+                >
+              </div>
+              <div class="cert-skills">
+                <span>AWS</span>
+                <span>Redshift</span>
+                <span>S3</span>
+                <span>Glue</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tableau Desktop Specialist -->
+          <div class="cert-card">
+            <div class="cert-logo">
+              <img
+                src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"
+                alt="Tableau"
+              />
+            </div>
+            <div class="cert-content">
+              <h3>Tableau Desktop Specialist Certification</h3>
+              <h4><i class="bx bxs-building"></i> Tableau (Salesforce)</h4>
+              <p>
+                Proficiency in creating interactive visualizations, dashboards,
+                and storytelling with data in Tableau.
+              </p>
+              <div class="cert-meta">
+                <span class="cert-date"
+                  ><i class="bx bx-calendar"></i> Mar 2023</span
+                >
+                <span class="cert-badge"
+                  ><i class="bx bx-check-circle"></i> Verified</span
+                >
+                <a href="#" class="cert-link"
+                  ><i class="bx bx-link-external"></i> View</a
+                >
+              </div>
+              <div class="cert-skills">
+                <span>Tableau</span>
+                <span>Data Viz</span>
+                <span>Dashboards</span>
+                <span>Analytics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- TensorFlow Developer -->
+          <div class="cert-card">
+            <div class="cert-logo">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                alt="TensorFlow"
+              />
+            </div>
+            <div class="cert-content">
+              <h3>TensorFlow Developer Certificate</h3>
+              <h4><i class="bx bxs-building"></i> Google / TensorFlow</h4>
+              <p>
+                Building and training neural networks, CNNs, RNNs, and deploying
+                ML models using TensorFlow framework.
+              </p>
+              <div class="cert-meta">
+                <span class="cert-date"
+                  ><i class="bx bx-calendar"></i> Jan 2023</span
+                >
+                <span class="cert-badge"
+                  ><i class="bx bx-check-circle"></i> Verified</span
+                >
+                <a href="#" class="cert-link"
+                  ><i class="bx bx-link-external"></i> View</a
+                >
+              </div>
+              <div class="cert-skills">
+                <span>TensorFlow</span>
+                <span>Deep Learning</span>
+                <span>CNN</span>
+                <span>NLP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services reveal fade-bottom" id="services">
+      <div class="container">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="service-list">
+          <div>
+            <i class="bx bx-line-chart"></i>
+            <h2>Data Analysis</h2>
+            <p>
+              Comprehensive exploratory data analysis, statistical testing, and
+              trend identification to extract meaningful insights from complex
+              datasets and guide strategic business decisions.
+            </p>
+            <a href="#" class="read">Learn More</a>
+          </div>
+          <div>
+            <i class="bx bx-pie-chart-alt-2"></i>
+            <h2>Data Visualization</h2>
+            <p>
+              Creating stunning interactive dashboards and reports using
+              Tableau, Power BI, and Python libraries to transform complex data
+              into clear, compelling visual narratives.
+            </p>
+            <a href="#" class="read-more">Learn More</a>
+          </div>
+          <div>
+            <i class="bx bx-brain"></i>
+            <h2>Machine Learning</h2>
+            <p>
+              Building predictive models for forecasting, classification, and
+              clustering using scikit-learn, TensorFlow, and XGBoost to automate
+              decisions and improve business outcomes.
+            </p>
+            <a href="#" class="read">Learn More</a>
+          </div>
+          <div>
+            <i class="bx bx-trending-up"></i>
+            <h2>Business Intelligence</h2>
+            <p>
+              Designing end-to-end BI solutions with real-time KPI tracking,
+              automated reporting, and data pipelines that keep stakeholders
+              informed and aligned with business goals.
+            </p>
+            <a href="#" class="read-more">Learn More</a>
+          </div>
+          <div>
+            <i class="bx bx-target-lock"></i>
+            <h2>Customer Analytics</h2>
+            <p>
+              Deep customer segmentation, lifetime value analysis, churn
+              prediction, and journey mapping to help businesses understand and
+              retain their most valuable customers.
+            </p>
+            <a href="#" class="read">Learn More</a>
+          </div>
+          <div>
+            <i class="bx bx-cog"></i>
+            <h2>Process Automation</h2>
+            <p>
+              Automating data pipelines, ETL workflows, and reporting systems
+              using Python, SQL, and cloud platforms to save time, reduce
+              errors, and improve operational efficiency.
+            </p>
+            <a href="#" class="read-more">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects reveal fade-bottom" id="projects">
+      <div class="container">
+        <h1 class="sub-title">My <span>Projects</span></h1>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop"
+                alt="Sales Analytics Dashboard"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="View Live">
+                    <i class="bx bx-link-external"></i>
+                  </a>
+                  <a
+                    href="https://github.com"
+                    class="project-link"
+                    title="View Code"
+                  >
+                    <i class="bx bxl-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>
+                <i class="bx bx-trending-up"></i> Sales Analytics Dashboard
+              </h3>
+              <p>
+                Interactive Power BI dashboard analyzing $80M+ in sales data
+                with real-time KPIs, forecasting models achieving 96% accuracy,
+                and automated alerts for key metrics.
+              </p>
+              <div class="project-tech">
+                <span>Power BI</span>
+                <span>SQL</span>
+                <span>Python</span>
+                <span>DAX</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+                alt="Customer Churn Prediction"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="View Live">
+                    <i class="bx bx-link-external"></i>
+                  </a>
+                  <a
+                    href="https://github.com"
+                    class="project-link"
+                    title="View Code"
+                  >
+                    <i class="bx bxl-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>
+                <i class="bx bx-user-minus"></i> Customer Churn Prediction
+              </h3>
+              <p>
+                ML pipeline predicting customer churn with 94% accuracy using
+                XGBoost and feature engineering. Reduced churn by 28% through
+                targeted retention campaigns.
+              </p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>XGBoost</span>
+                <span>Scikit-learn</span>
+                <span>Pandas</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=400&fit=crop"
+                alt="E-commerce Analytics"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="View Live">
+                    <i class="bx bx-link-external"></i>
+                  </a>
+                  <a
+                    href="https://github.com"
+                    class="project-link"
+                    title="View Code"
+                  >
+                    <i class="bx bxl-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3><i class="bx bx-cart"></i> E-commerce Analytics Platform</h3>
+              <p>
+                End-to-end analytics solution with customer segmentation,
+                product recommendation engine, and conversion funnel
+                optimization driving 40% increase in sales.
+              </p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>Tableau</span>
+                <span>PostgreSQL</span>
+                <span>AWS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop"
+                alt="Financial Analysis"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="View Live">
+                    <i class="bx bx-link-external"></i>
+                  </a>
+                  <a
+                    href="https://github.com"
+                    class="project-link"
+                    title="View Code"
+                  >
+                    <i class="bx bxl-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>
+                <i class="bx bx-dollar-circle"></i> Stock Market Predictor
+              </h3>
+              <p>
+                LSTM neural network for time series forecasting of stock prices
+                with 89% directional accuracy. Includes sentiment analysis from
+                financial news feeds.
+              </p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>TensorFlow</span>
+                <span>LSTM</span>
+                <span>NLP</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&fit=crop"
+                alt="Healthcare Analytics"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="View Live">
+                    <i class="bx bx-link-external"></i>
+                  </a>
+                  <a
+                    href="https://github.com"
+                    class="project-link"
+                    title="View Code"
+                  >
+                    <i class="bx bxl-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3><i class="bx bx-plus-medical"></i> Healthcare Analytics</h3>
+              <p>
+                Predictive model identifying high-risk patients for readmission,
+                achieving 32% reduction in 30-day readmissions through early
+                intervention protocols.
+              </p>
+              <div class="project-tech">
+                <span>R</span>
+                <span>SQL</span>
+                <span>Tableau</span>
+                <span>Statistics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img
+                src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&h=400&fit=crop"
+                alt="A/B Testing"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="View Live">
+                    <i class="bx bx-link-external"></i>
+                  </a>
+                  <a
+                    href="https://github.com"
+                    class="project-link"
+                    title="View Code"
+                  >
+                    <i class="bx bxl-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3><i class="bx bx-test-tube"></i> A/B Testing Framework</h3>
+              <p>
+                Automated experimentation platform with Bayesian statistics,
+                sample size calculators, and real-time monitoring dashboards for
+                data-driven product decisions.
+              </p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>Bayesian</span>
+                <span>Airflow</span>
+                <span>BigQuery</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact reveal fade-bottom" id="contact">
+      <div class="container">
+        <h1 class="sub-title">Contact <span>Me</span></h1>
+        <div class="contact-wrapper">
+          <div class="contact-left">
+            <h3>Let's Work Together</h3>
+            <p>
+              I'm always excited to tackle new data challenges and collaborate
+              on impactful projects. Whether you need help with analytics,
+              machine learning, or data strategy — let's connect!
+            </p>
+
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="bx bx-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>sonukumar12january@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="bx bx-phone"></i>
+                <div>
+                  <h4>Phone</h4>
+                  <p>+91 74800 93681</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="bx bx-map"></i>
+                <div>
+                  <h4>Rajgir</h4>
+                  <p>India</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/sonu-kumar-k/"
+                target="_blank"
+                title="LinkedIn"
+              >
+                <i class="bx bxl-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/Sonukumar12jan"
+                target="_blank"
+                title="GitHub"
+              >
+                <i class="bx bxl-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <form
+              class="contact-form"
+              id="contact-form"
+              action="https://formsubmit.co/sonukumar12january@gmail.com"
+              method="POST"
+            >
+              <!-- Form Overlay for Sending Animation -->
+              <div class="form-overlay" id="form-overlay">
+                <div class="sending-animation" id="sending-spinner"></div>
+                <div class="success-checkmark" id="success-check">
+                  <i class="bx bx-check"></i>
+                </div>
+                <p id="overlay-text">Sending your message...</p>
+              </div>
+
+              <!-- FormSubmit Configuration -->
+              <input
+                type="hidden"
+                name="_subject"
+                id="email-subject"
+                value="New Portfolio Contact Message"
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_next" value="#" />
+
+              <!-- Honeypot for spam protection -->
+              <input type="text" name="_honey" style="display: none" />
+
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                  minlength="2"
+                  maxlength="50"
+                />
+                <i class="bx bx-check-circle input-icon valid"></i>
+                <i class="bx bx-error-circle input-icon invalid"></i>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                />
+                <i class="bx bx-check-circle input-icon valid"></i>
+                <i class="bx bx-error-circle input-icon invalid"></i>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                  minlength="5"
+                  maxlength="100"
+                />
+                <i class="bx bx-check-circle input-icon valid"></i>
+                <i class="bx bx-error-circle input-icon invalid"></i>
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Your Message"
+                  required
+                  minlength="20"
+                  maxlength="1000"
+                ></textarea>
+                <i class="bx bx-check-circle input-icon valid"></i>
+                <i class="bx bx-error-circle input-icon invalid"></i>
+                <span class="char-counter" id="char-counter">0 / 1000</span>
+              </div>
+              <button type="submit" class="submit-btn" id="submit-btn">
+                <span>Send Message</span>
+                <i class="bx bx-send"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Sonu Kumar</h2>
+          <p>Data Analyst & Analytics Strategist</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-services">
+          <h3>Services</h3>
+          <ul>
+            <li>Data Analysis</li>
+            <li>Data Visualization</li>
+            <li>Machine Learning</li>
+            <li>Business Intelligence</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Data Analyst Portfolio. All rights reserved.</p>
+        <div class="footer-social">
+          <a
+            href="https://www.linkedin.com/in/sonu-kumar-k/"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/Sonukumar12jan"
+            target="_blank"
+            title="GitHub"
+          >
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="mailto:sonukumar12january@gmail.com" title="Email">
+            <i class="bx bx-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <a href="#" class="scroll-top" id="scroll-top">
+      <i class="bx bx-up-arrow-alt"></i>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
