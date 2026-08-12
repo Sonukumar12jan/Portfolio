@@ -15,7 +15,7 @@ document.querySelectorAll(".navbar a").forEach((link) => {
 
 // Typed.js initialization
 const typed = new Typed(".text", {
-  strings: ["a Data Analyst", "a Data Visualization Expert"],
+  strings: ["Data Analyst", "Data Visualization Expert"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
