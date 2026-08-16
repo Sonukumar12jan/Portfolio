@@ -1685,6 +1685,31 @@ section {
   position: relative;
   z-index: 1;
 }
+
+/* Experience lists and tech badges */
+.exp-list {
+  color: var(--text-muted);
+  margin: 8px 0 14px 18px;
+  line-height: 1.6;
+}
+.exp-list li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.exp-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.exp-tech span {
+  display: inline-block;
+  padding: 6px 10px;
+  background: rgba(0, 212, 255, 0.08);
+  color: #dff9ff;
+  border-radius: 999px;
+  font-size: 13px;
+  border: 1px solid rgba(0, 212, 255, 0.12);
+}
 .education-card .grade {
   display: flex;
   align-items: center;
